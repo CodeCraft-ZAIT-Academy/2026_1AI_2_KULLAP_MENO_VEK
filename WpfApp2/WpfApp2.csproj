@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pascal-debrunner-d7Bvh_2cFnA-unsplash.jpg" />
+    <None Remove="white-text-box-shape-removebg-preview.png" />
+    <None Remove="white-text-box-shape.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pascal-debrunner-d7Bvh_2cFnA-unsplash.jpg" />
+    <Resource Include="white-text-box-shape-removebg-preview.png" />
+    <Resource Include="white-text-box-shape.png" />
+  </ItemGroup>
+
+</Project>
